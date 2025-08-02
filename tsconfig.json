@@ -4,7 +4,12 @@
     "outDir": "dist",
     "allowJs": false,
     "sourceMap": true,
-    "noEmitOnError": true
+    "noEmitOnError": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
   },
   "include": ["./**/*"],
   "exclude": ["./node_modules"]
